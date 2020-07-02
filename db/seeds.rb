@@ -1,7 +1,31 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+Bingo.create(name: "Apocalypse 2020")
+
+Square.create(description: "Aliens invade", bingo: Bingo.first)
+Square.create(description: "Trump becomes dictator", bingo: Bingo.first)
+Square.create(description: "World ends", bingo: Bingo.first)
+Square.create(description: "Meteor crashes", bingo: Bingo.first)
+Square.create(description: "Dad comes home", bingo: Bingo.first)
+
+Square.create(description: "Second wave of virus", bingo: Bingo.first)
+Square.create(description: "Pigs fly", bingo: Bingo.first)
+Square.create(description: "Mother 3 released in US", bingo: Bingo.first)
+Square.create(description: "Anti police brutality laws passed", bingo: Bingo.first)
+Square.create(description: "New Kojima game trailer", bingo: Bingo.first)
+
+Square.create(description: "Run out of a natural resource", bingo: Bingo.first)
+Square.create(description: "I finish my video game", bingo: Bingo.first)
+Square.create(description: "I go back to school", bingo: Bingo.first)
+Square.create(description: "I become a God at Smash Bros.", bingo: Bingo.first)
+Square.create(description: "Ghosts manifest into people", bingo: Bingo.first)
+
+Square.create(description: "Dinosaurs are recreated", bingo: Bingo.first)
+Square.create(description: "Ninjas assassinate world leaders", bingo: Bingo.first)
+Square.create(description: "I volunteer somewhere", bingo: Bingo.first)
+Square.create(description: "I get a job", bingo: Bingo.first)
+Square.create(description: "I learn to dance professionally", bingo: Bingo.first)
+
+Square.create(description: "All cars blowup", bingo: Bingo.first)
+Square.create(description: "All money is burned", bingo: Bingo.first)
+Square.create(description: "We run out of Naruto manga", bingo: Bingo.first)
+Square.create(description: "I own every amiibo ever", bingo: Bingo.first)
+Square.create(description: "Mother 4 (Oddity) comes out", bingo: Bingo.first)
