@@ -1,7 +1,15 @@
 import React from 'react'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import BingoIndex from './BingoIndex'
 
-export const App = (props) => {
-  return (<h1>Make It So React</h1>)
+const App = (props) => {
+  return (
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/" component={BingoIndex} />
+      </Switch>
+    </BrowserRouter>
+  )
 }
 
 export default App
